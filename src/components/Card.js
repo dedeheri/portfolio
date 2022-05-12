@@ -7,7 +7,7 @@ function Card({ image, title, demo, technology }) {
     <div>
       <img className="h-60 w-full rounded-xl pt-6" src={image} alt={image} />
       <div className="md:col-span-2  space-y-2">
-        <h1 className="text-2xl">{title}</h1>
+        <h1 className=" text-lg md:text-xl lg:text-2xl">{title}</h1>
         {/* accrodion */}
         <div>
           <Accordion

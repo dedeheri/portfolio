@@ -5,10 +5,10 @@ import { MailIcon, PhoneIcon } from "@heroicons/react/outline";
 
 function Footer() {
   return (
-    <div className="text-white mt-32 pb-5 flex justify-between">
+    <div className="text-white mt-32 pb-5 md:flex md:justify-between">
       <h1 className="font-medium text-base md:text-md">Copyright 2022</h1>
 
-      <div className="flex space-x-3">
+      <div className="md:flex md:space-x-3">
         <a
           href="mailto:gmail@dedeheri.com"
           className="flex space-x-2  hover:text-white text-gray-300 duration-200"

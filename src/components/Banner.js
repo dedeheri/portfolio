@@ -4,7 +4,7 @@ import React from "react";
 import "animate.css";
 
 // image
-import { cycle, radius1, radius2 } from "../image";
+import { radius1, radius2 } from "../image";
 
 function Banner() {
   return (
@@ -12,13 +12,15 @@ function Banner() {
       {/* left */}
       <div className="-space-y-3">
         <div className="flex items-center">
-          <h1 className="text-5xl font-bold">Hello</h1>
-          <div className="text-6xl animate__animated animate__wobble animate__slow animate__infinite">
+          <h1 className=" text-3xl md:text-4xl lg:text-5xl font-bold">Hello</h1>
+          <div className="text-3xl md:text-5xl lg:text-6xl animate__animated animate__wobble animate__slow animate__infinite">
             👋🏻
           </div>
-          <h1 className="text-5xl font-bold">, Saya</h1>
+          <h1 className=" text-3xl md:text-4xl lg:text-5xl font-bold">
+            , Saya
+          </h1>
         </div>
-        <h1 className="md:text-[7.5rem] text-[5.5rem] font-bold ">Dede Heri</h1>
+        <h1 className="md:text-[7.5rem] text-[4.5rem] font-bold ">Dede Heri</h1>
 
         <div className=" flex">
           <div className="pt-2 -space-y-2 z-50">

@@ -16,16 +16,16 @@ function Navbar() {
     <div className="space-y-8">
       {/* section 1 */}
       <div className="bg-transparent text-white flex items-center pt-4">
-        <div className="flex space-x-6">
+        <div className="flex md:space-x-6 space-x-3">
           <a href="mailto:gmail@dedeheri.com" className="flex space-x-2">
             <MailIcon className="w-4 md:w-5" />
-            <h1 className="font-medium text-base md:text-md hover:text-white text-gray-300 duration-200">
+            <h1 className="font-medium  text-sm md:text-md hover:text-white text-gray-300 duration-200">
               gmail@dedeheri.com
             </h1>
           </a>
           <a href="tel:+628221669226" className="flex space-x-2">
             <PhoneIcon className="w-4 md:w-5" />
-            <h1 className="font-medium text-base md:text-md hover:text-white text-gray-300 duration-200">
+            <h1 className="font-medium text-sm md:text-md hover:text-white text-gray-300 duration-200">
               (+62) 822-166-9226
             </h1>
           </a>
@@ -34,7 +34,7 @@ function Navbar() {
       {/* section 2 */}
       <div className="bg-transparent text-white flex items-center justify-between">
         <Link to="/">
-          <img src={logo} className="w-20" />
+          <img src={logo} className="md:w-20 w-14" />
         </Link>
 
         {/* dekstop */}
